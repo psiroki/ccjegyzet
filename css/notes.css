@@ -9,11 +9,51 @@
 	figure {
 		background-color: white;
 	}
+	
+	footer {
+		display: none;
+	}
 }
 
 p, li
 {
 	text-align: justify;
+}
+
+footer
+{
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 10pt;
+    line-height: 35px;
+}
+
+footer img
+{
+	vertical-align: middle;
+	margin-right: 8px;
+	float: left;
+}
+
+footer .copyright
+{
+	display: inline-block;
+	width: 400px;
+	overflow: hidden;
+	line-height: 1.2em;
+}
+
+footer .cc-caption
+{
+	display: block;
+	padding-left: 96px;
+}
+
+footer .github-page
+{
+	display: inline-block;
+	width: 320px;
+	text-align: right;
+	vertical-align: top;
 }
 
 figure
